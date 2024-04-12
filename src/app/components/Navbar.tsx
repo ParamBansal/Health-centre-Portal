@@ -32,10 +32,10 @@ const Navbar = () => {
         },
     ]
   return (
-    <div className='flex items-center justify-between p-4 shadow-sm bg-blue-300 '>
+    <div className='flex items-center text-white justify-evenly p-3 shadow-sm  ' style={{background:"linear-gradient(156.86deg, #A17BBE 162.07%, rgba(196, 196, 196, 0) 188.31%)"}}>
         <h1 className="mr-40" style={{fontWeight:'bold', fontSize:'2em'}}>
-  <span style={{color:'#00008B'}}>HEALTH</span>
-  <span style={{color:'#4169E1'}}> CENTER</span>
+  <span  style={{color:'#00008B'}}>HEALTH</span>
+  <span  style={{color:'#4169E1'}}> CENTER</span>
 </h1>
         <ul className='md:flex gap-8 hidden '>
             {Menu.map((item,index)=>(
@@ -46,7 +46,7 @@ const Navbar = () => {
                 </li>
             ))}
         </ul>
-        <Button>
+        <Button style={{backgroundColor:"red"}}>
             Login
         </Button>
     </div>
